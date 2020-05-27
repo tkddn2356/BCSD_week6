@@ -9,10 +9,10 @@ import java.util.List;
 @Service
 public class TestSearch implements Search {
     private List<Integer> list = new ArrayList<Integer>();
-    private int key = 90000000;
+    private int key = 9000000;
 
     public TestSearch() {
-        for (int i = 0; i < 100000000; i++) {
+        for (int i = 0; i < 10000000; i++) {
             list.add(i);
         }
     }

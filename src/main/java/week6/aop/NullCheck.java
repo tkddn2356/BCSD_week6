@@ -15,7 +15,8 @@ public class NullCheck {
             result = joinPoint.proceed();
         }
         catch (Exception e){
-            System.out.println(e);
+            System.out.println(joinPoint.getSignature().getName()+"에서 에러가 발생했습니다.");
+            System.out.println("발생한 오류 : " + e);
         }
         finally {
         }
