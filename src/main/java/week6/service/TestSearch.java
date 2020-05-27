@@ -9,11 +9,11 @@ import java.util.List;
 @Service
 public class TestSearch implements Search {
     private List<Integer> list = new ArrayList<Integer>();
-    private int key = 9999999; // 찾으려는 키
+    private int key = 999999900; // 찾으려는 키
 
     // 객체가 생성될 때 랜덤한 수들을 리스트에 넣는다.
     public TestSearch() {
-        for (int i = 0; i < 10000000; i++) {
+        for (int i = 0; i < 1000000000; i++) {
             list.add(i);
         }
     }
