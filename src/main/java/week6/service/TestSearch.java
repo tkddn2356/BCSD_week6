@@ -8,7 +8,7 @@ import java.util.List;
 
 @Service
 public class TestSearch implements Search {
-    private List<Integer> list = new ArrayList<Integer>();
+    private List<Integer> list = new ArrayList<>();
     private int key = 9000000;
 
     public TestSearch() {
